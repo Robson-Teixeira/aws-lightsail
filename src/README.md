@@ -11,3 +11,4 @@ Console de Gerenciamento da AWS > Amazon Lightsail
     - Para instância, é obrigatório preencher localidade e imagem (os | os + app).
     - Para instância, o firewall já vem configurado para as portas 22 (SSH) e 80 (HTTP), mas é possível eliminá-las e/ou incluir novas tanto para IPv4 quanto para IPv6.
     - Para instância, é possível criar um snapshot (com a instância parada) e utilizá-lo na criação de outras instâncias.
+    - Para um ambiente de alta disponibilidade o mínimo a ser considerado são 2 máquinas que podem ser ampliadas.
