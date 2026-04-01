@@ -1,2 +1,3 @@
-# aws-lightsail
-Repositório do curso Começando na AWS com Lightsail, EC2, S3, VPC, RDS e DynamoDB da plataforma Alura.
+# Amazon Lightsail: descomplicando a nuvem
+
+Repositório do curso [**Amazon Lightsail: descomplicando a nuvem**](https://cursos.alura.com.br/course/amazon-lightsail-descomplicando-nuvem) da plataforma [Alura](https://cursos.alura.com.br/).
