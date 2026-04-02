@@ -15,6 +15,7 @@ Console de Gerenciamento da AWS > Amazon Lightsail
 - Load Balance é possível configurar alertas para determinadas condições (quantidade de instâncias inferior ao parametrizado, por exemplo).
 - Storage (bucket ou disk)
     - Bucket com nome único globalmente
-    - Para disco, após criado é preciso anexá-lo à instância e configurar (formatar, instalar o file system e montar)
+    - Para disco, após criado é preciso anexá-lo à instância e configurar (particionar, instalar o file system e montar)
+        - `fdisk /dev/xv… ; mkfs.ext4 /dev/xv..`
     - Incluir no fstab para que a montagem seja automática após a reinicialização
         - Executar `sudo mount -a` para montar tudo que estiver no fstab sem reiniciar a máquina
