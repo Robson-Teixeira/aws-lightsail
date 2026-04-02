@@ -16,3 +16,5 @@ Console de Gerenciamento da AWS > Amazon Lightsail
 - Storage (bucket ou disk)
     - Bucket com nome único globalmente
     - Para disco, após criado é preciso anexá-lo à instância e configurar (formatar, instalar o file system e montar)
+    - Incluir no fstab para que a montagem seja automática após a reinicialização
+        - Executar `sudo mount -a` para montar tudo que estiver no fstab sem reiniciar a máquina
