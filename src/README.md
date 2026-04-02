@@ -23,3 +23,6 @@ Console de Gerenciamento da AWS > Amazon Lightsail
 - Container
     - É obrigatório preencher localidade
     - Definir imagem do registry e porta (conforme Dockerfile da imagem)
+    - É possível:
+        - Utilizar o Container Services que irá criar 1 ou mais nodes para gerenciar os seus containers
+        - Criar uma VM , instalar o docker e fazer deploy do seu container.
