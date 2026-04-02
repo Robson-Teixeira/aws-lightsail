@@ -12,4 +12,6 @@ Console de Gerenciamento da AWS > Amazon Lightsail
     - Para instância, o firewall já vem configurado para as portas 22 (SSH) e 80 (HTTP), mas é possível eliminá-las e/ou incluir novas tanto para IPv4 quanto para IPv6.
     - Para instância, é possível criar um snapshot (com a instância parada) e utilizá-lo na criação de outras instâncias.
     - Para um ambiente de alta disponibilidade o mínimo a ser considerado são 2 máquinas que podem ser ampliadas.
-    - No Load Balance é possível configurar alertas para determinadas condições (quantidade de instâncias inferior ao parametrizado, por exemplo).
+- Load Balance é possível configurar alertas para determinadas condições (quantidade de instâncias inferior ao parametrizado, por exemplo).
+- Storage (bucket ou disk)
+    - Bucket com nome único globalmente
