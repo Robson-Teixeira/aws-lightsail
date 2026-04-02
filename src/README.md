@@ -15,3 +15,4 @@ Console de Gerenciamento da AWS > Amazon Lightsail
 - Load Balance é possível configurar alertas para determinadas condições (quantidade de instâncias inferior ao parametrizado, por exemplo).
 - Storage (bucket ou disk)
     - Bucket com nome único globalmente
+    - Para disco, após criado é preciso anexá-lo à instância e configurar (formatar, instalar o file system e montar)
